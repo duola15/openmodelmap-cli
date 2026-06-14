@@ -1,6 +1,6 @@
 {
   "name": "openmodelmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenModelMap CLI — query OMS scores, best use-cases, and deploy commands for any open-source AI model. npx openmodelmap qwen3",
   "license": "MIT",
   "author": "OpenModelMap",
