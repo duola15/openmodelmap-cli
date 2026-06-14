@@ -136,7 +136,7 @@ openmodelmap qwen3
 ## Support
 
 - Website: [openmodelmap.com](https://openmodelmap.com)
-- GitHub: [openmodelmap/cli](https://github.com/openmodelmap/cli)
+- GitHub: [duola15/openmodelmap-cli](https://github.com/duola15/openmodelmap-cli)
 
 ## License
 

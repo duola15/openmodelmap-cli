@@ -11,7 +11,7 @@
 //   npx openmodelmap deepseek
 //
 // Docs: https://openmodelmap.com
-// Repo: https://github.com/openmodelmap/cli
+// Repo: https://github.com/duola15/openmodelmap-cli
 // ────────────────────────────────────────────────────────────────
 
 const API_BASE = process.env.OPENMODELMAP_API || "https://openmodelmap.com";
@@ -247,7 +247,7 @@ function showHelp() {
   console.log("    OPENMODELMAP_API  自定义 API 地址");
   console.log("");
   console.log(`  ${c("dim", "npm: npmjs.com/package/openmodelmap")}`);
-  console.log(`  ${c("dim", "GitHub: github.com/openmodelmap/cli")}`);
+  console.log(`  ${c("dim", "GitHub: github.com/duola15/openmodelmap-cli")}`);
   console.log("");
 }
 
