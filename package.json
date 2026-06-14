@@ -1,0 +1,29 @@
+{
+  "name": "openmodelmap",
+  "version": "1.0.0",
+  "description": "OpenModelMap CLI — query OMS scores, best use-cases, and deploy commands for any open-source AI model. npx openmodelmap qwen3",
+  "license": "MIT",
+  "author": "OpenModelMap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmodelmap/cli.git"
+  },
+  "homepage": "https://openmodelmap.com",
+  "keywords": [
+    "ai",
+    "llm",
+    "open-source",
+    "oms",
+    "model-comparison",
+    "cli"
+  ],
+  "bin": {
+    "openmodelmap": "index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js"
+  ]
+}
