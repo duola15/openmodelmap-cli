@@ -1,7 +1,7 @@
 {
   "name": "openmodelmap",
-  "version": "1.0.0",
-  "description": "OpenModelMap CLI — query OMS scores, best use-cases, and deploy commands for any open-source AI model. npx openmodelmap qwen3",
+  "version": "1.0.2",
+  "description": "OpenModelMap CLI — discover Chinese open-source AI models. Query OMS scores, benchmarks, hardware requirements, and deploy commands from your terminal.",
   "license": "MIT",
   "author": "OpenModelMap",
   "repository": {
@@ -13,7 +13,13 @@
     "ai",
     "llm",
     "open-source",
+    "chinese-ai-models",
+    "model-discovery",
+    "benchmark",
     "oms",
+    "deepseek",
+    "qwen",
+    "kimi",
     "model-comparison",
     "cli"
   ],
