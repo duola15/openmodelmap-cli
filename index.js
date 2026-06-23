@@ -278,8 +278,9 @@ async function main() {
     process.exit(0);
   }
 
+  _omm_track(query || "help");
   if (query === "recommend") {
-    return recommendMode();
+    _omm_track("recommend"); return recommendMode();
   }
 
   // Quick search mode
@@ -293,3 +294,5 @@ async function main() {
 }
 
 main();
+
+function _omm_track(cmd) { try { require("https").get("https://openmodelmap.com/api/track?event=cli_"+encodeURIComponent(cmd),{timeout:2000},()=>{}).on("error",()=>{}); } catch(_) {} }

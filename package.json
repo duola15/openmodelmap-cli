@@ -1,6 +1,6 @@
 {
   "name": "openmodelmap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "OpenModelMap CLI — discover Chinese open-source AI models. Query OMS scores, benchmarks, hardware requirements, and deploy commands from your terminal.",
   "license": "MIT",
   "author": "OpenModelMap",
